@@ -1,0 +1,7 @@
+function calculateDogAge(humanAge) {
+    var dogAge = humanAge * 7;
+    return dogAge;
+}
+
+var ageInDogYears = calculateDogAge(30);
+console.log("The man's age in dog years is: " + ageInDogYears);

@@ -1,0 +1,22 @@
+var people = [
+    {
+        firstName: "John",
+        lastName: "Doe"
+    },
+    {
+        firstName: "Jane",
+        lastName: "Smith"
+    },
+    {
+        firstName: "Alice",
+        lastName: "Johnson"
+    },
+    {
+        firstName: "Bob",
+        lastName: "Brown"
+    }
+];
+
+for (var i = 0; i < people.length; i++) {
+    console.log(people[i].firstName + " " + people[i].lastName);
+}
